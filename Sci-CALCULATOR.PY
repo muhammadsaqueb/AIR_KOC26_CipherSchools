@@ -63,9 +63,7 @@ while (n):
         elif num == "10": 
             x = float(input("Enter your number=")) 
             print(math.radians(x))
-        else:
-            print("INVALID")
     elif en=="E" or en=="e":
         break
     else:
-        print()
+        print("INVALID")
